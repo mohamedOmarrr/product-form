@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>products</title>
+    <!-- fav-icon  -->
+    <!-- <link
+      rel="shortcut icon"
+      href="./images/favicon.ico"
+      type="image/x-icon"
+    /> -->
+    <!-- font link -->
+    <!-- bootstrap css link -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- native css file link -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- responsive css link -->
+    <link rel="stylesheet" href="./css/responsive.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="form border px-3 py-5 mt-3 shadow mb-5" id="form">
+                <h1 class="text-center mb-3">Present your prouducts</h1>
+                
+                <input
+                    type="text"
+                    class="form-control feild mb-3"
+                    name=""
+                    id="float"
+                    aria-describedby="helpId"
+                    placeholder="Prouduct Name"
+                />
+                <small id="helpId" class="nameWarning d-none">Please, Each Word You Input Should Start With A capital Letter</small>
+             
+            
+                
+            
+                
+                <input
+                    type="text"
+                    class="form-control feild mb-3"
+                    name=""
+                    id=""
+                    aria-describedby="helpId"
+                    placeholder="Price"
+                    />
+                    <small id="helpId" class="priceWarning d-none">the price must be between 100 & 10000</small>
+                
+                
+                
+                    
+                    <input type="text"
+                    list="cat"
+                    name="category"
+                    class="form-control feild mb-3"
+                    placeholder="Category">
+
+                    <small id="helpId" class="catWarning d-none">You have to Enter Category name from list</small>
+                
+    
+                    <datalist id="cat">
+                        <option value="Mobile">
+                        <option value="Tablet">
+                        <option value="Labtop">
+                        <option value="PC">
+                        <option value="TV">
+                        <option value="Keyboard">
+                        <option value="Camera">
+                    </datalist>
+                    
+                  
+                
+                <textarea class="form-control feild mb-3"
+                name=""
+                id=""
+                rows="3"
+                placeholder="Description"
+                style="resize:vertical;"></textarea>
+                <small id="helpId" class="descWarning d-none">please, Enter at least 50 Chars whit one space between each word</small>
+           
+
+            <input type="file"
+            class="form-control feild mb-3"
+            accept=".jpg, .jpeg, .png">
+            <small id="helpId" class="imageWarning d-none">You must insert product's photo</small>
+
+            <button class="submit
+            w-25">
+            <a class="text-decoration-none" href="#products">Add Product</a>
+            </button>
+            
+        </div>
+        <div class="Search">
+            <label for="search" class="fs-2 fw-bold">Search</label> 
+            <input type="text" id="search" class="form-control search" placeholder="Enter name of Product">
+        </div>
+
+        <div class="products-wrapper row" id="products">
+
+
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

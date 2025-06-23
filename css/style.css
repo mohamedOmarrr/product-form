@@ -1,0 +1,52 @@
+.form, .in-product {
+    background-image: linear-gradient(-45deg, rgba(0, 0, 255, 0.3) 0%, rgba(234, 234, 252, 0.3)  100%);
+}
+
+.form h1 {
+    background: linear-gradient(to right, rgb(173, 155, 238), rgb(89, 240, 200));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.submit {
+    padding: 5px 10px;
+    border: 2px solid transparent;
+    font-weight: 700;
+    border-radius: 15px;
+    transition: all 0.5s ease;
+}
+
+.submit a {
+    color: rgb(142, 167, 214);
+}
+
+.submit:hover {
+    border: 2px solid rgb(142, 167, 214);
+    transform: scale(1.01);
+}
+
+.in-product .wrapper {
+    width: 95%;
+    overflow-y: scroll;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.wrapper p {
+    color: rgb(142, 167, 214);
+    font-weight: 600;
+}
+
+.Search label {
+    letter-spacing: 5px;
+    color: rgb(134, 160, 209);
+}
+
+
+small {
+    position: relative;
+    top: -15px;
+    padding-inline: 5px;
+    font-weight: 600;
+    color:crimson;
+}
